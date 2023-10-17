@@ -31,7 +31,7 @@ def find_highest_and_lowest_grade():
         if average_grade > highest_grade:
             highest_grade = average_grade
             highest_reg_no = reg_no
-        if average_grade < lowest_grade:
+        if average_grade < lowest_grade: 
             lowest_grade = average_grade
             lowest_reg_no = reg_no
     print("Highest grade is {} by student {} with registration number {}".format(highest_grade, students[highest_reg_no]["name"], highest_reg_no))
